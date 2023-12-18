@@ -13,7 +13,7 @@ def main():
         for number in numbers:
             arr.append(parser.get_issue_data(year, '№ ' + number))
 
-    return arr
+    return arr[0]
 
     # export_target = "elibrary"
 
